@@ -1,0 +1,1438 @@
+        /* Start Global css rules */
+
+        * {
+            border: none;
+            direction: rtl;
+            padding: 0;
+            margin: 0;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 1232px;
+            font-family: Tahoma;
+            padding: 0;
+            margin: 0 auto;
+            background-color: #021f3f;
+            position: relative;
+        }
+
+        .button:hover,
+        .turtle-banner-content .button:hover,
+        .find-hotels-button:hover,
+        .boat-button:hover,
+        .panda-button:hover,
+        .exploore-button:hover,
+        .special-offer-button:hover {
+            background-color: #fff000;
+        }
+
+        a {
+            text-decoration: none;
+            color: #535353;
+            
+        }
+        /* End Glaobal css rules */
+        /* Start Header css rules */
+
+        .top-header {
+            width: 1232px;
+            height: 135px;
+            background: linear-gradient(to bottom, #0d1931 11%, #132557 100%);
+            overflow: hidden;
+        }
+
+        .logo {
+            width: 199px;
+            height: 135px;
+            margin: 0 70px 0 34px;
+            float: right;
+        }
+
+        .logo-gradient {
+            background: #efd43e;
+            background: linear-gradient(to bottom, #efd43e 11%, #d8d24c 15%, #207cca 61%, #2989d8 68%, #2989d8 75%, #01a4fd 100%);
+            width: 204px;
+            height: 54px;
+        }
+
+        .logo-heading {
+            width: 207px;
+            height: 51px;
+            padding-top: 6px;
+            text-align: left;
+        }
+
+        .logo-heading h3 {
+            color: #2a91eb;
+            font-size: 40px;
+            text-transform: uppercase;
+            display: inline;
+            font-weight: bold;
+        }
+
+        .logo-heading span {
+            color: #d8d24c;
+            font-size: 40px;
+            padding-right: 10px;
+            letter-spacing: -10px;
+            display: inline;
+            font-weight: bold;
+        }
+
+        .logo-heading h4 {
+            color: #fff;
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+
+        .contact-section {
+            width: 873px;
+            height: 58px;
+            padding-bottom: 6px;
+            float: right;
+            border-bottom: 3px solid #a0a8bd;
+        }
+
+        .contact-section i {
+            color: #eede06;
+            text-decoration: none;
+            list-style-type: none;
+        }
+
+        .contact-info {
+            width: 435px;
+            height: 50px;
+            float: right;
+            text-align: right;
+            color: #fff;
+            text-decoration: none;
+            padding-top: 15px;
+        }
+
+        .contact-info .phone,
+        .contact-info .email {
+            width: 215px;
+            height: 50px;
+            list-style-type: none;
+            float: right;
+        }
+
+        .contact-info .phone a,
+        .contact-info .email a {
+            width: 215px;
+            height: 50px;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .contact-social {
+            width: 132px;
+            height: 50px;
+            list-style-type: none;
+            float: right;
+        }
+
+        .contact-social li {
+            list-style-type: none;
+        }
+
+        .contact-social i {
+            display: block;
+            float: left;
+            padding: 18px 12px 12px 5px;
+        }
+
+        .login-section {
+            width: 209px;
+            height: 50px;
+            margin-right: 15px;
+            float: left;
+        }
+
+        .login-section li {
+            width: 90px;
+            height: 50px;
+            display: inline-block;
+            list-style-type: none;
+            background-color: transparent;
+            padding-top: 15px;
+            color: white;
+            text-decoration: none;
+            text-align: left;
+        }
+
+        .login-section li a {
+            font-size: 14px;
+            text-align: left;
+            color: white;
+            list-style-type: none;
+            font-weight: 300;
+            text-decoration: none;
+            padding: 20px 1px 10px 1px;
+        }
+
+        .login-section li a:first-of-type {
+            padding-right: 0;
+        }
+
+        .login-section li a:last-of-type {
+            padding-left: 0;
+        }
+
+        .nav-menu {
+            width: 683px;
+            height: 74px;
+            margin-right: 185px;
+            float: right;
+            padding-top: 25px;
+        }
+
+        .nav-menu li {
+            float: right;
+            list-style-type: none;
+            margin-left: 35px;
+            padding-bottom: 12px;
+        }
+
+        .nav-menu li a {
+            font-size: 28px;
+            text-align: center;
+            color: white;
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+        .nav-menu li.active {
+            border-bottom: 5px solid #eede06;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+        /* End Header css rules */
+        /* Start Fixed Buttons css rules */
+
+        .fixed-buttons {
+            position: fixed;
+            z-index: 99999999955;
+            right: 60px;
+            top: 170px;
+            display: block;
+            height: 280px;
+            width: 135px;
+            background-color: transparent;
+        }
+
+        .fixed-buttons .english,
+        .fixed-buttons .customer-serv {
+            display: block;
+            height: 135px;
+            width: 135px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            background-color: #9b0101;
+            color: #fefeff;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .fixed-buttons .english a,
+        .fixed-buttons .customer-serv a {
+            display: block;
+            border-radius: 50%;
+            color: #fefeff;
+            text-align: center;
+            font-size: 22px;
+            text-decoration: none;
+            font-weight: 600;
+            line-height: 30px;
+        }
+
+        .fixed-buttons .english i,
+        .fixed-buttons .customer-serv i {
+            display: block;
+            color: #fefeff;
+            text-align: center;
+            font-size: 38px;
+            text-decoration: none;
+            padding-top: 10px;
+            font-weight: bold;
+        }
+
+        .chat-online {
+            position: fixed;
+            z-index: 999999999955;
+            right: 60px;
+            bottom: 8px;
+            display: block;
+            height: 135px;
+            width: 135px;
+            background-color: transparent;
+            border-radius: 50%;
+            background-color: #020007;
+            color: #fefeff;
+            text-align: center;
+            font-size: 24px;
+            text-decoration: none;
+        }
+
+        .chat-online li {
+            list-style-type: none;
+        }
+
+        .chat-online i {
+            display: block;
+            color: #fefeff;
+            text-align: center;
+            font-size: 38px;
+            text-decoration: none;
+            padding-top: 10px;
+            font-weight: bold;
+        }
+
+        .chat-online a {
+            display: block;
+            border-radius: 50%;
+            color: #fefeff;
+            text-align: center;
+            font-size: 22px;
+            text-decoration: none;
+            font-weight: 600;
+            line-height: 30px;
+        }
+        /* End Fixed Buttons css rules */
+        /* Start turtle-banner css rules */
+
+        .turtle-banner {
+            width: 100%;
+            height: 616px;
+            position: relative;
+            color: white;
+        }
+
+        .turtle-banner * {
+            position: relative;
+        }
+
+        .image {
+            background-image: url("../images/img04.jpg");
+        }
+
+        .overlay:before {
+            position: absolute;
+            content: " ";
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: block;
+            z-index: 0;
+            background-color: rgba(2, 23, 49, 0.6);
+        }
+
+        .turtle-banner-content {
+            width: 100%;
+            margin: 0 auto;
+            color: white;
+            text-align: center;
+            padding: 165px;
+            background-color: transparent;
+        }
+
+        .turtle-banner-content h1 {
+            font-size: 80px;
+            font-weight: 800;
+            padding-bottom: 10px;
+        }
+
+        .turtle-banner-content h2 {
+            font-size: 50px;
+            font-weight: 500;
+            padding-bottom: 6px;
+        }
+
+        .turtle-banner-content p {
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        .turtle-banner-content .button,
+        .boat-button {
+            width: 195px;
+            height: 51px;
+            margin: 0 auto;
+            background-color: #f7de3c;
+            display: inline-block;
+            font-size: 24px;
+            color: #000;
+            line-height: 35px;
+            text-align: center;
+            padding-top: 5px;
+            border-radius: 10px;
+            font-weight: 600;
+            text-decoration: none;
+            margin-top: 30px;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+        /* End turtle-banner css rules */
+        /* Start find-hotels css rules */
+
+        .find-hotels {
+            width: 100%;
+            height: 299px;
+            background-color: #f0d83a;
+            padding: 60px 56px 60px 15px;
+        }
+
+        .find-hotels h3 {
+            font-size: 35px;
+            text-align: center;
+            padding-bottom: 38px;
+        }
+
+        .location,
+        .checkin,
+        .checkout,
+        .adult,
+        .child {
+            float: right;
+            margin-left: 20px;
+            font-size: 18px;
+        }
+
+        .location input {
+            width: 217px;
+        }
+
+        .checkin input {
+            width: 189px;
+        }
+
+        .checkout input {
+            width: 189px;
+        }
+
+        .adult input {
+            width: 120px;
+        }
+
+        .child input {
+            width: 120px;
+        }
+
+        form input,
+        .find-hotels-button {
+            height: 38px;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+        .find-hotels-button {
+            width: 170px;
+            height: 38px;
+            background-color: #4b4b4b;
+            text-align: center;
+            padding-top: 5px;
+            font-weight: 500;
+            float: left;
+            margin: 42px 0 0 40px;
+        }
+
+        .find-hotels-button a {
+            text-decoration: none;
+            color: white;
+        }
+        /* End find-hotels css rules */
+        /* Start train-banner css rules */
+
+        .train-banner {
+            width: 100%;
+            height: 555px;
+            background-color: #f0f0f0;
+        }
+
+        .train-img {
+            width: 50%;
+            height: 555px;
+            background-image: url("../images/img05.jpg");
+            float: right;
+        }
+
+        .train-text {
+            width: 50%;
+            height: 555px;
+            color: black;
+            padding: 75px 65px 79px 56px;
+            float: left;
+            text-align: right;
+        }
+
+        .train-text h5 {
+            font-size: 34px;
+            padding-bottom: 15px;
+        }
+
+        .train-text h6 {
+            font-size: 30px;
+            padding-bottom: 30px;
+            font-weight: 500;
+        }
+
+        .train-text p {
+            padding-bottom: 30px;
+        }
+
+        .train-text .train-list {
+            width: 428px;
+            height: 185px;
+        }
+
+        .train-text .train-list li {
+            color: black;
+            list-style-type: none;
+            padding-bottom: 20px;
+            line-height: 18px;
+        }
+
+        .train-text .train-list i {
+            color: #05a6f8;
+            padding-left: 14px;
+            font-size: 24px;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+        /* End train-banner css rules */
+        /* Start best-services css rules */
+
+        .best-services {
+            width: 100%;
+            height: 621px;
+            background-color: white;
+        }
+
+        .services-heading {
+            width: 100%;
+            height: 180px;
+            text-align: center;
+            padding: 45px 0;
+        }
+
+        .services-heading h2,
+        .budget-trip-heading h2,
+        .boat-text h2 {
+            font-size: 50px;
+        }
+
+        .services-heading h3,
+        .budget-trip-heading h3,
+        .boat-text h3 {
+            font-size: 40px;
+            font-weight: 500;
+        }
+
+        .services-content {
+            width: 100%;
+            height: 441px;
+        }
+
+        .services-content-one {
+            width: 50%;
+            float: right;
+            padding: 40px 140px 0 0;
+        }
+
+        .plane,
+        .university,
+        .cutlery,
+        .train,
+        .bicycle,
+        .eye {
+            float: right;
+            width: 100%;
+        }
+
+        .services-content-two {
+            width: 50%;
+            float: left;
+            padding: 40px 40px 0 118px;
+        }
+
+        .services-content i {
+            padding: 0 0 50px 62px;
+            font-size: 50px;
+            color: #05a6f8;
+            float: right;
+        }
+
+        .services-content p {
+            float: right;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+        /* End best-services css rules */
+        /* Start budget-trip-types css rules */
+
+        .budget-trip-types {
+            width: 100%;
+            height: 687px;
+            background-color: #01a4ff;
+            position: relative;
+        }
+
+        .budget-trip-3ads {
+            width: 1121px;
+            height: 371px;
+            position: absolute;
+            background-color: transparent;
+            top: 224px;
+            right: 56px;
+        }
+
+        .car-budget-trip,
+        .train-budget-trip,
+        .plane-budget-trip {
+            width: 31%;
+            height: 100%;
+            background-color: #ffffff;
+            float: right;
+            border-radius: 14px;
+        }
+
+        .car-budget-trip {
+            margin-left: 3.5%;
+        }
+
+        .plane-budget-trip {
+            margin-right: 3.5%;
+        }
+
+        .car-budget-trip i,
+        .train-budget-trip i,
+        .plane-budget-trip i {
+            font-size: 75px;
+            text-align: center;
+            color: #383838;
+            display: block;
+            padding-top: 30px;
+        }
+
+        .budget-trip-3ads h4 {
+            text-align: center;
+            font-size: 24px;
+            color: #050505;
+            padding: 20px 0 100px 0;
+        }
+
+        .budget-trip-list {
+            width: 100%;
+            padding: 0 90px 32px 55px;
+        }
+
+        .offer1,
+        .offer2,
+        .offer3,
+        .offer4 {
+            float: right;
+            width: 100%;
+            display: block;
+            font-size: 14px;
+        }
+
+        .offer1 i,
+        .offer2 i,
+        .offer3 i,
+        .offer4 i {
+            text-align: right;
+            color: #06a2f7;
+            float: right;
+            font-size: 14px;
+            padding: 0 0 6px 18px;
+        }
+
+        .budget-trip-list p {
+            color: black;
+            font-size: 14px;
+        }
+
+        .ribbon5,
+        .ribbon3 {
+            display: block;
+            width: calc(346px + 21px);
+            height: 56px;
+            line-height: 50px;
+            text-align: center;
+            margin-left: -10px;
+            margin-right: -10px;
+            background: #f1d93b;
+            position: absolute;
+            top: 175px;
+            font-size: 30px;
+            font-weight: 500;
+        }
+
+        .ribbon3:before,
+        .ribbon3:after,
+        .ribbon5:before,
+        .ribbon5:after {
+            content: "";
+            position: absolute;
+        }
+
+        .ribbon3:before,
+        .ribbon5:before {
+            height: 0;
+            width: 0;
+            top: -10px;
+            left: 0;
+            border-bottom: 10px solid #e0c710;
+            border-left: 10px solid transparent;
+        }
+
+        .ribbon3:after,
+        .ribbon5:after {
+            height: 0;
+            width: 0;
+            right: 0;
+            border-bottom: 10px solid #e0c710;
+            border-right: 10px solid transparent;
+            top: -10px;
+        }
+
+        .budget-city-img {
+            height: 455px;
+            background-image: url("../images/img06.jpg");
+        }
+
+        .budget-trip-heading {
+            height: 221px;
+            margin: 0 auto;
+            padding-top: 55px;
+            text-align: center;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+        /* End budget-trip-types css rules */
+        /* Start boat-surfing css rules */
+
+        .boat-surfing {
+            width: 100%;
+            height: 620px;
+            background: #fff;
+        }
+
+        .boat-img {
+            width: 376px;
+            height: 490px;
+            margin: 80px 80px 49px 56px;
+            background-image: url("../images/img07.jpg");
+            float: right;
+            border-radius: 15px;
+        }
+
+        .boat-text {
+            width: 632px;
+            height: 100%;
+            margin-left: 88px;
+            padding: 92px 0 52px 0;
+            float: left;
+        }
+
+        .boat-text h2 {
+            font-size: 42px;
+        }
+
+        .boat-text h3 {
+            padding-bottom: 42px;
+        }
+
+        .boat-search {
+            width: 100%;
+            height: 88px;
+            color: #373737;
+            border: 2px solid #01a4ff;
+            text-align: center;
+        }
+
+        .boat-search i {
+            font-size: 40px;
+            padding: 10px;
+        }
+
+        .boat-search a {
+            text-decoration: none;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+
+        .car-search {
+            width: 33.33%;
+            height: 86px;
+            background-color: #01a4ff;
+            float: right;
+        }
+
+        .text-search {
+            width: 33.33%;
+            height: 86px;
+            float: right;
+        }
+
+        .hotel-search {
+            width: 33.33%;
+            height: 86px;
+            float: left;
+        }
+
+        .description {
+            padding: 38px 0 20px 0;
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        .boat-button {
+            width: 194px;
+            height: 49px;
+            text-align: center;
+            float: right;
+        }
+
+        .boat-button a {
+            font-size: 24px;
+            color: #000;
+            text-align: center;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+        /* End boat-surfing css rules */
+        /* Start panda-banner css rules */
+
+        .tint {
+            width: 100%;
+            height: 687px;
+            position: relative;
+        }
+
+        .tint:before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.6);
+            transition: background .3s linear;
+        }
+
+        .panda-heading {
+            width: 100%;
+            height: 251px;
+            text-align: center;
+            color: white;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        .panda-heading h5 {
+            padding-top: 80px;
+            font-size: 50px;
+            font-weight: 500;
+        }
+
+        .panda-heading h4 {
+            font-size: 55px;
+        }
+
+        .panda-banner {
+            width: 1115px;
+            height: 305px;
+            background-image: url("../images/img02.png");
+            position: absolute;
+            bottom: 127px;
+            left: 58.5px;
+        }
+
+        .rainbow-panda {
+            width: 100%;
+            height: 100%;
+        }
+
+        .grass-panda {
+            width: 100%;
+            height: 35px;
+            position: absolute;
+            bottom: 0;
+            background-image: url("../images/img03.png");
+            z-index: 99995;
+            left: 0;
+        }
+
+        .big-panda {
+            width: 297px;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            z-index: 9999995;
+            background-image: url("../images/big.png");
+        }
+
+        .small-panda {
+            width: 243px;
+            height: 100%;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            z-index: 999999995;
+            background-image: url("../images/img01.png");
+        }
+
+        .panda-text {
+            width: 100%;
+            height: 100%;
+            color: white;
+            text-align: center;
+        }
+
+        .panda-text h2 {
+            padding: 22px 0 0 0;
+            font-size: 50px;
+            color: #444141;
+        }
+
+        .panda-text h1 {
+            padding: 0 0 30px 0;
+            font-size: 70px;
+            color: #000;
+        }
+
+        .panda-button {
+            width: 446px;
+            height: 69px;
+            margin: 0 auto;
+            background-color: #f8951e;
+            color: #000;
+            text-align: center;
+            border-radius: 50px;
+        }
+
+        .panda-button a {
+            font-size: 40px;
+            color: #000;
+            line-height: 55px;
+            text-align: center;
+            line-height: 45px;
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+        /* End panda-banner css rules */
+        /* Start go-exploore css rules */
+
+        .go-exploore {
+            width: 100%;
+            height: 755px;
+            position: relative;
+            background-image: url("../images/goexplore.jpg");
+        }
+
+        .go-exploore * {
+            position: relative;
+        }
+
+        .overlay2:before {
+            position: absolute;
+            content: " ";
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: block;
+            z-index: 0;
+            background-color: rgba(209, 209, 209, 0.7);
+        }
+
+        .exploore-heading {
+            width: 100%;
+            height: 174px;
+            text-align: center;
+        }
+
+        .exploore-heading h2 {
+            padding: 80px 0 22px 0;
+            font-size: 30px;
+        }
+
+        .exploore-heading h3 {
+            font-size: 36px;
+            font-weight: 500;
+        }
+
+        .exploore-banners {
+            width: 1120px;
+            height: 453px;
+            position: absolute;
+            overflow: hidden;
+            margin: 55px 53px 0 53px;
+            background-color: transparent;
+        }
+
+        .exploore-banner1,
+        .exploore-banner2 {
+            margin-left: 3.5%;
+        }
+
+        .exploore-banner1,
+        .exploore-banner2,
+        .exploore-banner3 {
+            width: 31%;
+            height: 100%;
+            background-color: white;
+            position: relative;
+            overflow: hidden;
+            border-radius: 12px;
+            float: right;
+        }
+
+        .img-banner1 {
+            background-image: url("../images/img08.jpg");
+        }
+
+        .img-banner2 {
+            background-image: url("../images/img09.jpg");
+        }
+
+        .img-banner3 {
+            background-image: url("../images/img10.jpg");
+        }
+
+        .img-banner1,
+        .img-banner2,
+        .img-banner3,
+        .text-banners {
+            width: 100%;
+            height: 50%;
+            display: block;
+        }
+
+        .text-banners {
+            text-align: center;
+            padding: 0 48px 35px 50px;
+        }
+
+        .text-banners h4 {
+            padding: 50px 0 21px 0;
+            font-size: 24px;
+        }
+
+        .exploore-button {
+            width: 160px;
+            height: 42px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            background-color: #f0d83a;
+            color: #000;
+            line-height: 35px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .exploore-button a {
+            font-size: 22px;
+            color: #000;
+            text-align: center;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+        /* End go-exploore css rules */
+        /* Start special-offer  css rules */
+
+        .special-offer {
+            width: 100%;
+            height: 774px;
+            position: relative;
+            background-color: white;
+        }
+
+        .special-offer-container {
+            width: 800px;
+            height: 100%;
+            position: relative;
+            padding: 90px 56px 68px 0;
+        }
+
+        .special-offer h1 {
+            font-size: 50px;
+            color: #cf0403;
+            padding-bottom: 50px;
+            display: block;
+            text-align: right;
+        }
+
+        .special-offer-img {
+            width: 741px;
+            height: 495px;
+            display: block;
+            -webkit-box-shadow: 8px 5px 22px 9px #555555;
+            -moz-box-shadow: 8px 5px 22px 9px #555555;
+            box-shadow: 8px 5px 22px 9px #555555;
+            float: right;
+            background-image: url("../images/img11.jpg");
+        }
+
+        .special-offer-ad {
+            width: 541px;
+            height: 406px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-34.5%);
+            right: 642px;
+            padding: 40px 45px 45px 35px;
+            z-index: 99999999;
+            border-radius: 14px;
+            -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+            -moz-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+            background-color: white;
+        }
+
+        .special-offer-ad-description h5 {
+            font-size: 28px;
+            padding: 0 0 10px;
+        }
+
+        .special-offer-ad-description h6 {
+            font-size: 18px;
+            font-weight: 600;
+            padding: 0 0 26px;
+        }
+
+        .special-offer-features i {
+            color: #02a5f9;
+            font-size: 55px;
+            padding: 0 0 5px 22px;
+        }
+
+        .special-offer-features p {
+            padding: 0 0 5px 22px;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .features-flight,
+        .features-hotel,
+        .features-transport {
+            float: right;
+            padding-left: 50px;
+            text-align: center;
+        }
+
+        .special-offer-features-text p {
+            padding: 10px 0 26px 0;
+            float: right;
+        }
+
+        .special-offer-price h2 {
+            font-size: 36px;
+            float: right;
+            padding-left: 45px;
+        }
+
+        .special-offer-button {
+            width: 158px;
+            height: 42px;
+            background: #f4dc3a;
+            text-align: center;
+            float: right;
+            border-radius: 8px;
+            margin: 6.5px 10px 0 0;
+        }
+
+        .special-offer-button a {
+            text-align: center;
+            text-decoration: none;
+            font-size: 24px;
+            line-height: 36px;
+            font-weight: 600;
+            color: black;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+        /* End special-offer css rules */
+        /* Start customer-review css rules */
+
+        .customer-review {
+            width: 1232px;
+            height: 542px;
+            background-color: #e8eae8;
+            position: relative;
+        }
+
+        .customer-review * {
+            position: relative;
+        }
+
+        .customer-review-img {
+            width: 1232px;
+            height: 539px;
+            position: absolute;
+            background-image: url("../images/img12.jpg");
+        }
+
+        .overlay3:before {
+            position: absolute;
+            content: " ";
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: block;
+            z-index: 0;
+            background-color: rgba(19, 18, 18, 0.863);
+        }
+
+        .customer-review-text {
+            width: 1232px;
+            height: 542px;
+            color: white;
+            text-align: center;
+        }
+
+        .customer-review-text-heading h3 {
+            font-size: 32px;
+            padding-top: 90px;
+            font-weight: 600;
+        }
+
+        .customer-review-text-heading h4 {
+            font-size: 30px;
+            font-weight: 500;
+            padding: 0 0 28px 0;
+        }
+
+        .customer-review-text-heading p {
+            font-size: 16px;
+            padding: 0 198px 20px 198px;
+        }
+
+        .customer-review-5stars i {
+            font-size: 26px;
+            padding: 0 10px 38px;
+            color: #f2da39;
+        }
+
+        .customer-review-user {
+            width: 212px;
+            height: 68px;
+            margin: 0 auto;
+        }
+
+        .customer-review-user-img {
+            width: 68px;
+            height: 68px;
+            border-radius: 50%;
+            background-image: url("../images/img13.jpg");
+            float: right;
+        }
+
+        .customer-review-user h5 {
+            float: right;
+            padding: 5px 20px 0 0;
+            font-size: 20px;
+        }
+
+        .customer-review-user p {
+            float: right;
+            padding-right: 20px;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+        /* End customer-review css rules */
+        /* Start contact-us css rules */
+
+        .contact-us {
+            width: 100%;
+            height: calc(460px + 341px);
+        }
+
+        .contact-banner {
+            width: 100%;
+            height: 460px;
+            position: relative;
+        }
+
+        .banner-img {
+            width: 100%;
+            height: 460px;
+            position: rlative;
+            background-image: url("../images/img14.jpg");
+        }
+
+        .banner-heading {
+            width: 695px;
+            height: 135px;
+            margin: 0 auto;
+            padding-bottom: 8px;
+            border-radius: 18px;
+            border: 5px dashed #ccd341;
+            color: white;
+            position: absolute;
+            text-align: center;
+            top: 94px;
+            right: calc((1232px - 695px)/2);
+            overflow: hidden;
+        }
+
+        .banner-heading * {
+            position: relative;
+        }
+
+        .banner-heading h2 {
+            font-size: 40px;
+        }
+
+        .banner-heading h4 {
+            font-size: 28px;
+        }
+
+        .overlay4:before {
+            position: absolute;
+            content: " ";
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: block;
+            z-index: 0;
+            background-color: rgba(19, 18, 18, 0.7);
+        }
+
+        .contact-icon {
+            text-align: center;
+            margin: -180px 0 0 0;
+        }
+
+        .contact-icon i {
+            font-size: 170px;
+            color: #ffd93b;
+        }
+
+        .contact-details {
+            width: 1232px;
+            height: 341px;
+            background-color: white;
+            color: #535353;
+        }
+
+        .contact-three-icons {
+            width: 100%;
+            height: 94px;
+            padding: 35px 120px 0 0;
+        }
+
+        .email-icon1,
+        .callus-icon2,
+        .address-icon3 {
+            width: 320px;
+            float: right;
+        }
+
+        .contact-three-icons i {
+            font-size: 60px;
+            color: #535353;
+            float: right;
+        }
+
+        .contact-three-icons h5 {
+            font-size: 16px;
+            float: right;
+            padding: 0 15px 0 0;
+        }
+
+        .contact-three-icons p {
+            font-size: 12px;
+            float: right;
+            padding: 0 15px 0 0;
+        }
+
+        .contact-details-social {
+            text-align: center;
+            padding: 120px 0;
+        }
+
+        .contact-details-social i {
+            font-size: 30px;
+            text-align: center;
+            width: 60px;
+            height: 60px;
+            border: 3px solid #ddbd0f;
+            border-radius: 50%;
+            line-height: 60px;
+            margin: 0 0 0 36px;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+        /* End contact-us css rules */
+        /* Start footer css rules */
+
+        footer {
+            width: 1232px;
+            height: 152px;
+            background: linear-gradient(to bottom, rgba(1, 164, 254, 0.73) 0%, rgba(6, 165, 250, 0.73) 2%, rgba(238, 214, 55, 1) 99%, rgba(238, 214, 55, 1) 100%);
+            text-align: center;
+            padding: 48px;
+            line-height: 18px;
+            position: relative;
+            font-size: 20px;
+            font-weight: bold;
+            color: rgb(10, 0, 0);
+        }
+
+        footer a {
+            color: #0a0a01;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+        /* End footer css rules */
